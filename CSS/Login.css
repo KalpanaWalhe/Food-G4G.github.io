@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    color: black;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 625px;
+}
+
+.col-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.col-3{
+    background: #ff9933;
+    margin-bottom: 0;
+}
+
+hr{
+    width: 10rem;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    border-radius: 1rem;
+    margin-left: 8rem;
+    border-color: #ff9933;
+    border-width: 0.1rem;
+}
+
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    border-radius: 1rem;
+    margin-left: 8rem;
+    border-color: #ff9933;
+    border-width: 0.1rem;
+}
+
+h6{
+    width: 69%; 
+    text-align: center; 
+    border-bottom: .5px solid #808080; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    margin-left: 8rem;
+}
+
+h6 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+h2{
+    color: #ff9933;
+    margin-left: 18.2rem;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff9933;
+    color: #fff;
+    padding: 10px 208px;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn1 {
+    display: inline-block;
+    background: #fff;
+    color: #ff9933;
+    padding: 10px 30px;
+    margin-left: 33rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.col-2 .fb{
+    margin-top: 0.7rem;
+    width:50px;
+    height:50px;
+    margin-left: 17.5rem;
+}
+
+.col-2 .google{
+    margin-top: .3rem;
+    width:48px;
+    height:48px;
+    margin-left: 2.5rem;
+}
+
+.col-2 .text{
+    margin-left: 19rem;
+    font-size: .8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.col-2 .text1{
+    margin-left: 16rem;
+    font-size: .8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.col-2 .text1 span{
+    color: #ff9933;
+    
+}
+
+.col-2 .view{
+     margin-left: 28rem;
+     font-size: .9rem;
+}
+
+.col-2 .fa-eye{
+    color:black;
+}
+
+.col-4{
+    background-image: url(../Image/Bg.png);
+    background-size: 1300px 1000px;
+}
