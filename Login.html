@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here!</title>
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <link rel="stylesheet" href="../Js/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-3">
+                <a href="" class="btn1">SKIP</a>
+                <img src="../Image/Object.PNG" alt="">
+            </div>
+            <div class="col-2 col-4">
+                <h2>LOGIN</h2>
+            <form>
+
+                <input type="text" maxlength="10" minlength="10" placeholder="Enter Your Mobile Number"><br><br>
+
+                <h6><span>OR</span></h6><br>
+
+                <input type="text" placeholder="Enter Your Email Id"><br><br>
+
+                <input type="password" id="myInput" placeholder="Enter Your Password" ><br><p class="view">View Password
+                <i class="fas fa-eye" onclick="myFunction()"></i></p><br>
+
+                <a href="../Html/Otp.html" class="btn">Login</a><br><br>
+
+                <h6><span>OR</span></h6><br>
+
+                <img src="../Image/icon_fb.png" class="fb" alt="">
+
+                <img src="../Image/icon_google.png" class="google" alt=""><br><br>
+
+                <a href="" class="text">Forget Password?</a><br>
+
+                <a href="" class="text1">Not have Account?<span>Create Account<span></a>
+
+            </form>
+           
+            </div>   
+        </div> 
+    </div>
+<script src="./Js/Jquery3.5.1.min.js"></script>
+<script>
+
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+</script>
+</body>
+</html>
