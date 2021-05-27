@@ -3,3 +3,5 @@
 ![OTP](https://user-images.githubusercontent.com/68656831/119184382-eda5f500-ba92-11eb-8658-ffe22e09e9e5.PNG)
 
 # Food-G4G-
+
+To visit website click on LINK -https://kalpanawalhe.github.io/Food-G4G.github.io/Html/Index.html
